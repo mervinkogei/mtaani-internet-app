@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:intl_phone_number_input/intl_phone_number_input.dart';
 import 'package:custom_pin_screen/custom_pin_screen.dart';
 import 'package:numeric_keyboard/numeric_keyboard.dart';
+import 'package:poa_internet/screens/verify_otp.dart';
 
 void main() {
   runApp(const MyApp());
@@ -41,7 +42,7 @@ class MyApp extends StatelessWidget {
             ),     
       home: SplashScreen(
         backgroundColor: Colors.purple,
-        duration: const Duration(seconds: 15),
+        duration: const Duration(seconds: 5),
         nextPage: const MyHomePage(),
         circleHeight: 200,
         text: const Text(
@@ -178,7 +179,8 @@ class _MyHomePageState extends State<MyHomePage> {
         style: ElevatedButton.styleFrom(
           primary: Theme.of(context).backgroundColor),        
                     onPressed: () {
-                      formKey.currentState?.validate();
+                      // formKey.currentState?.validate();
+                      Navigator.of(context).push(MaterialPageRoute(builder: (context)=>VerifyOTP()));
                     },
                     child: Text('Send Me SMS'),
                   ),

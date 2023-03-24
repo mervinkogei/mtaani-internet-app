@@ -40,6 +40,7 @@ dependencies:
   intl_phone_number_input: ^0.7.2
   custom_pin_screen: ^0.3.0
   numeric_keyboard: ^1.1.0
+  otp_pin_field: ^1.1.2+2
 
 dev_dependencies:
   flutter_test:
