@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:numeric_keyboard/numeric_keyboard.dart';
 import 'package:otp_pin_field/otp_pin_field.dart';
+import 'package:poa_internet/screens/dashboard.dart';
 import 'package:poa_internet/screens/home.dart';
 
 class VerifyOTP extends StatefulWidget {
@@ -96,7 +97,7 @@ class _VerifyOTPState extends State<VerifyOTP> {
           primary: Theme.of(context).backgroundColor),        
                     onPressed: () {
                       formKey.currentState?.validate();
-                      Navigator.of(context).push(MaterialPageRoute(builder: (context)=>HomeScreen()));
+                      Navigator.of(context).push(MaterialPageRoute(builder: (context)=>Dashboard()));
                     },
                     child: const Text('Verify OTP'),
                   ),
