@@ -19,3 +19,13 @@ class DefaultValues{
     },
   ];
 }
+
+class packageItems{
+  String ? title;
+  String ? mbpsTitle;
+  bool? isActive;
+  String? totalAmount;
+  Color? color;
+
+  packageItems({this.isActive,this.mbpsTitle,this.title,this.totalAmount, this.color});
+}
