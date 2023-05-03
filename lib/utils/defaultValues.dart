@@ -29,3 +29,11 @@ class packageItems{
 
   packageItems({this.isActive,this.mbpsTitle,this.title,this.totalAmount, this.color});
 }
+
+class accountItems{
+  String ? title;
+  String ? accountDetails;
+  Icon ? icons;
+
+  accountItems({this.accountDetails, this.icons,  this.title});
+}
