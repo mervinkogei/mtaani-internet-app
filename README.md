@@ -13,7 +13,7 @@
 [![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://circleci.com/gh/circleci/circleci-docs)
 
 ## CI/CD:
-[![CircleCI](https://circleci.com/gh/circleci/circleci-docs/tree/teesloane-patch-5.svg?style=svg)](https://circleci.com/gh/circleci/circleci-docs/?branch=teesloane-patch-5)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/mervinkogei/mtaani-internet-app/tree/development.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/mervinkogei/mtaani-internet-app/tree/development)
 
 
 ## Screenshoots
