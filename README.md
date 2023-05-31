@@ -8,6 +8,15 @@
 * Flutter - Front-End
 * Node.Js - Backend-End (Coming soon)
 
+[![<ORG_NAME>](https://circleci.com/<VCS>/<ORG_NAME>/<PROJECT_NAME>.svg?style=svg)](<LINK>)
+
+# CI/CD:
+[![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://circleci.com/gh/circleci/circleci-docs)
+
+# CI/CD:
+[![CircleCI](https://circleci.com/gh/circleci/circleci-docs/tree/teesloane-patch-5.svg?style=svg)](https://circleci.com/gh/circleci/circleci-docs/?branch=teesloane-patch-5)
+
+
 ## Screenshoots
 
 * ![Screenshot_20230324-113550](https://user-images.githubusercontent.com/42339869/227467777-d0c89670-6f1d-4aa9-98fe-07de661c6ac9.png)
